@@ -42,3 +42,5 @@ Go back to the repository view and edit the description. Paste in the URL in the
 
 Click the link to view the page and make sure that it runs correctly.  
 ![Screenshot of the updated description with link](img/test-page-url.png)
+
+After you have verified the page is working, create the pull request to submit the assignment.  Take a screenshot of your Open Pull Request and put that in the assignment dropbox.
