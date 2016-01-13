@@ -12,7 +12,8 @@
 Before beginning this assignment, you should read through chapters 1, 2, and 4 in the textbook to learn basic Javascript syntax.  You should read Chapter 3 before coming to class, but it is not required to complete this coding assignment.
 
 ## GitHub Info
-Repository:  https://github.com/htc-ccis2591/basic-javascript 
+Repository:  https://github.com/htc-ccis2591/basic-javascript
+
 You need to fork this repository and submit a pull request to turn in the assignment.  Please post a screenshot of the pull request to the D2L dropbox.  The dropbox is mainly used to communicate due dates, not for storing the completed work.  You do not need to upload the project to D2L, only to GitHub.
 
 ## Provided Files
