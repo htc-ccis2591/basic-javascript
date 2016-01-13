@@ -31,3 +31,14 @@ In the assignment, you are expected to write messages to the console.  You will 
 
 When the assignment is complete the output should look something like this:
 ![Screenshot of example output](img/finished-output-ex.png)
+
+## Final Testing
+When you are done, push your files to GitHub, then make sure that your page displays and runs correctly on the GitHub website.  
+Go to your repository settings, and locate the URL where the page is published.  Copy this URL.
+![Screenshot of repository settings](img/repository-settings.png)
+
+Go back to the repository view and edit the description. Paste in the URL in the space for the website.  
+![Screenshot of the description and edit location](img/edit-repository-description.png)
+
+Click the link to view the page and make sure that it runs correctly.  
+![Screenshot of the updated description with link](img/test-page-url.png)
