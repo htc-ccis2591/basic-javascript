@@ -24,7 +24,7 @@ function evenOrOdd() {
     var number = 5;
 
     // Write a message (not just the number) to the console saying the value of the number
-    console.log('The number is: '+number);
+    console.log('The magic number is: '+number);
 
     // Use the modulus operator and an if statement to display a message
     // in the console that says whether the number is even or odd
@@ -47,7 +47,7 @@ function countToTen() {
     for (var i = 1; i <= 10; i++) {
         console.log(i);  
     }
-
+    console.log('All done!')
 
 
 }
@@ -71,7 +71,7 @@ function addNumbers() {
 
 
     // Write a message to the console saying the value of total
-    console.log('Sum of the array: '+total);
+    console.log('Total sum of the array: '+total);
 
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
