@@ -13,6 +13,8 @@ function sayHello() {
 
 
     // Log the message to the console.  Use console.log()
+    var name = "Juan";
+    console.log("Hello, " + name + ". Very nice to meet you.");
 
 
 
@@ -28,7 +30,19 @@ function evenOrOdd() {
 
     // Use the modulus operator and an if statement to display a message
     // in the console that says whether the number is even or odd
+    var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+    for(i=0; i< numbers.length; i++)
+    {
+        if(numbers[i] % 2 == 0)
+        {
+            console.log(numbers[i] + " is Even.");
+        }
+        else
+        {
+            console.log(numbers[i] + " is Odd.");
+        }
+    }
 
 
 
@@ -38,7 +52,10 @@ function countToTen() {
 
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
-
+    for(i=0; i<=10; i++)
+    {
+        console.log(i);
+    }
 
 
 
@@ -66,7 +83,27 @@ function addNumbers() {
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
 
+    var myArray = [1, 205, -30, -21, 3];
+    var total = 0;
 
+    for(i=0; i<myArray.length; i++)
+    {
+        console.log("N°:"+myArray[i]);
+        total = total + myArray[i];
+    }
+
+    if(total > 50)
+    {
+        console.log("The total: " + total + " is greater than 50");
+    }
+    if(total < 50)
+    {
+            console.log("The total: " + total + "  is less than 50");
+    }
+    if(total == 50)
+    {
+            console.log("The total: " + total + "  is equal to 50");
+    }
 }
 
 
