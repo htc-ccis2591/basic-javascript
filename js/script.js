@@ -17,7 +17,7 @@ console.log(message);
 
 
 }
-var i
+
 function evenOrOdd() {
 
     // Make a variable called number, and set it to a number between 1 and 10
@@ -35,7 +35,7 @@ function evenOrOdd() {
 }
 
 function countToTen() {
-
+var i
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
 for (i=1; i<= 10; i++){
