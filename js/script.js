@@ -10,7 +10,7 @@ var name = "Hieu";
 
     //Make a variable called message and using the name variable from above,
     // set it to be something like:  "Hello, Mary.  Very nice to meet you."
-var messsage = "Hello, " + name + ". Very nice to meet you.";
+var message = "Hello, " + name + ". Very nice to meet you.";
 
     // Log the message to the console.  Use console.log()
 console.log(message);
