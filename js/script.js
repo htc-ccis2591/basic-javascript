@@ -13,7 +13,7 @@ var name = "Hieu";
 var messsage = "Hello, " + name + ". Very nice to meet you.";
 
     // Log the message to the console.  Use console.log()
-console.log("hiiiii");
+console.log(name);
 
 
 }
