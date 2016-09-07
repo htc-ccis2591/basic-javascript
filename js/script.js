@@ -52,15 +52,15 @@ array = [-5, 0, 5, 10, 15];
 console.log(array);
 
     // Make a variable called total, set it to 0
-
+var total = 0
 
     // Use a for loop to set total to the sum of all of the numbers in the array
-
-
-
+for ( int i : array) {
+    total += i;
+}
 
     // Write a message to the console saying the value of total
-
+console.log("The total is: " + total;)
 
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
