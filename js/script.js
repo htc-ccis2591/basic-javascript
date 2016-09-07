@@ -56,7 +56,7 @@ var total = 0;
 
     // Use a for loop to set total to the sum of all of the numbers in the array
 for (item of array){
-    var aaa = array.sum();
+    var aaa = IntStream.of(array).sum();
     console.log(aaa);
 }
 
