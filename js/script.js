@@ -46,10 +46,10 @@ for (i=1; i<= 10; i++){
 function addNumbers() {
 
     // Make an array of 5 numbers, at least one number should be negative
-
+array = [-5, 0, 5, 10, 15];
 
     // Write the array to the console
-
+console.log(array);
 
     // Make a variable called total, set it to 0
 
