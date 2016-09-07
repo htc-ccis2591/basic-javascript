@@ -55,7 +55,7 @@ console.log(array);
 var total = 0;
 
     // Use a for loop to set total to the sum of all of the numbers in the array
-for (var i=1; i < array.length; total++){
+for (var i=1; i < array.length; i++){
     var num = array[i] + array[i];
     console.log(num);
 }
