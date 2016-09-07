@@ -61,38 +61,25 @@ console.log("Current item is: " + text);
 function addNumbers() {
 
     // Make an array of 5 numbers, at least one number should be negative
-array = ["-1", "2", "3", "4", "5"];
+        var numbers = ["-1, 1, 2, 3, 4"];
 
     // Write the array to the console
+        console.log("my array is " + numbers);
 
-console.log("my array is " + array);
     // Make a variable called total, set it to 0
-total = array[0];
+        add = numbers[0];
 
     // Use a for loop to set total to the sum of all of the numbers in the array
+    var numbers2 = [-1 * 1 * 2 * 3 * 4];
+  for (i = 0; i < numbers.length; i++) {
+    text += numbers2[i] + "<br>";
+}
 
-sum = 0;
-    
-    for(i=1; i<=n; i++)
-        
-        sum = sum + i;
-    
-    return sum;
 
 
     // Write a message to the console saying the value of total
+console.log("my array is " + numbers2);
 
-console.log("Total is: " + array);
-    
-    var elemt =[-1,2,3,4,5];
-    var sum = 0;
-    for(var i = 0; i <elemt.length;i++)
-        {
-            sum = sum + elemt[i];
-        }
-    
-    console.log("sum: " + sum);
-    
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
 function myFunction() {
