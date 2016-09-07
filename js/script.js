@@ -35,10 +35,12 @@ function evenOrOdd() {
 }
 
 function countToTen() {
-
+var i;
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
-
+for (i=1; i<= 10;){
+    console.log(i);
+}
 
 
 
