@@ -6,29 +6,40 @@
 function sayHello() {
 
     // Make a variable called name and set it to your first name.
-
+    var name = "Phil."
 
     //Make a variable called message and using the name variable from above,
+    var phrase = "hello my name is "
     // set it to be something like:  "Hello, Mary.  Very nice to meet you."
-
 
     // Log the message to the console.  Use console.log()
 
+console.log( "Hello," + name +  "Very nice to meet you.");
 
-
+    
 }
 
 function evenOrOdd() {
 
     // Make a variable called number, and set it to a number between 1 and 10
-
+var sun = 1
 
     // Write a message (not just the number) to the console saying the value of the number
+              
+console.log( "the number is " + sun +  "!");
 
+// Do something with the object
+var i = 1;
 
     // Use the modulus operator and an if statement to display a message
     // in the console that says whether the number is even or odd
-
+    if (i%2 == 1){
+        console.log(i + " Currently is odd ");
+    } 
+else {
+        console.log(i + " Currently is even ");
+    }
+} 
 
 
 
@@ -38,34 +49,49 @@ function countToTen() {
 
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
-
-
-
+var text = "";
+var i;
+for (i = 1; i < 11; i++) {
+    text += "The number is " + i + "<br>";
+}
+console.log("Current item is: " + text);
 
 }
 
 function addNumbers() {
 
     // Make an array of 5 numbers, at least one number should be negative
-
+        var numbers = ["-1, 1, 2, 3, 4"];
 
     // Write the array to the console
-
+        console.log("my array is " + numbers);
 
     // Make a variable called total, set it to 0
-
+        add = numbers[0];
 
     // Use a for loop to set total to the sum of all of the numbers in the array
-
+    var numbers2 = [-1 * 1 * 2 * 3 * 4];
+  for (i = 0; i < numbers.length; i++) {
+    text += numbers2[i] + "<br>";
+}
 
 
 
     // Write a message to the console saying the value of total
-
+console.log("my array is " + numbers2);
 
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
-
+function myFunction() {
+    var greeting;
+    var time = new Date().getHours();
+    if (time < 50) {
+        greeting = "less than";
+    } else if (time > 50) {
+        greeting = "greater than";
+    } else {
+        greeting = "equal to 50";
+    }
 
 }
 
