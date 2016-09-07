@@ -58,7 +58,7 @@ var total = 0;
 
 
     // Write a message to the console saying the value of total
-console.log("The total is: " + total;)
+console.log("The total is: " + total);
 
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
