@@ -21,15 +21,19 @@ console.log(message);
 function evenOrOdd() {
 
     // Make a variable called number, and set it to a number between 1 and 10
-
+var number = 5
 
     // Write a message (not just the number) to the console saying the value of the number
-
+console.log("The number is: " + number);
 
     // Use the modulus operator and an if statement to display a message
     // in the console that says whether the number is even or odd
-
-
+if (number%2 == 1){
+    console.log("odd");
+}
+else{
+    console.log("even");
+}
 
 
 }
