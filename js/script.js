@@ -21,7 +21,10 @@ console.log(message);
 function evenOrOdd() {
 
     // Make a variable called number, and set it to a number between 1 and 10
-
+var number = {
+    var i;
+    0 < i <= 10;
+}
 
     // Write a message (not just the number) to the console saying the value of the number
 
