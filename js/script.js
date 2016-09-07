@@ -62,7 +62,15 @@ console.log("The total is: " + total);
 
     // Use an if statement to write a message to the console that says
     // whether total is greater than, less than, or equal to 50.
-
+if (total > 50){
+    console.log("The total is greater than 50");
+}
+if (total == 50){
+    console.log("The total is equal to 50");
+}
+else{
+    console.log("The total is less than 50");
+}
 
 }
 
