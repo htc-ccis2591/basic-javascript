@@ -52,10 +52,13 @@ array = [-5, 0, 5, 10, 15];
 console.log(array);
 
     // Make a variable called total, set it to 0
-var total = 48;
+var total = 0;
 
     // Use a for loop to set total to the sum of all of the numbers in the array
-
+for (total < array.length; total++){
+    var num = array[total] + array[total];
+    console.log(num);
+}
 
     // Write a message to the console saying the value of total
 console.log("The total is: " + total);
