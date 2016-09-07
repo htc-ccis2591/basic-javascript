@@ -39,7 +39,6 @@ function countToTen() {
     // Write a for loop to count from 1 to 10
     // Use console.log() inside the loop to write out each number
 
-}
 
 
 
